@@ -14,6 +14,7 @@ def location1():
     except Exception as e:
         print(e)
 
+
 def url_surf():
     try:
         import urllib
@@ -26,7 +27,8 @@ def url_surf():
     except Exception as e:
         print(e)
 
-class math_ones:
+
+class Math_ones:
 
     def first():
         import numpy as np
@@ -72,6 +74,7 @@ class math_ones:
         plt.xlabel('')
         plt.ylabel('Probability Distribution')
         plt.show()
+
 
 if __name__ == "__main__":
     location1()
